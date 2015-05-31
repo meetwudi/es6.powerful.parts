@@ -1,0 +1,16 @@
+.avatar {
+  border-radius: 50% 50%;
+  overflow: hidden;
+  & > img {
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+}
+
+.avatar-default {
+  @size: 48px;
+  height: @size;
+  width: @size;
+  border: 3px solid darken(@brand-secondary, 5%);
+}

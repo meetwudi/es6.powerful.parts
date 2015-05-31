@@ -1,0 +1,14 @@
+<article class="post">
+  <div class="post-fiddle">
+    <%- post.content %>
+  </div>
+  <header class="post-author clearfix">
+    <div class="avatar avatar-default pull-left">
+      <img src="<%- gravatar(post.author_email, 160) %>" alt="<%= post.author %>" class="post-gravatar">
+    </div>
+    <a class="post-author-name" href="https://github.com/<%= post.author_github %>"><%= post.author %></a>
+  </header>
+  <div class="post-description">
+    <%- post.description %>
+  </div>
+</article>
