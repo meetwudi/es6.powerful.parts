@@ -162,9 +162,12 @@
 
 .navbar-brand {
   float: left;
-  padding: @navbar-padding-vertical 0;
+  display: inline-block;
+  padding: 2rem 0;
+  margin-left: 1rem;
   font-size: @font-size-large;
   line-height: @line-height-computed;
+  font-weight: 700;
 
   &:hover,
   &:focus {
@@ -176,10 +179,10 @@
   }
 
   @media (min-width: @grid-float-breakpoint) {
-    .navbar > .container &,
-    .navbar > .container-fluid & {
-      margin-left: -@navbar-padding-horizontal;
-    }
+    display: block;
+    text-align: center;
+    float: none;
+    margin-left: 0;
   }
 }
 
@@ -188,19 +191,53 @@
 // svg logo
 
 .navbar-logo {
-  display: inline-block;
-  height: 4rem;
-  width: 4rem;
+  @size: 4rem;
+  float: left;
+  height: @size;
+  width: @size;
   background: url(/images/logo.svg);
-  background-size: 4rem 4rem;
+  background-size: @size @size;
+  @media (min-width: @grid-float-breakpoint) {
+    @size: 12rem;
+    height: @size;
+    width: @size;
+    background-size: @size @size;
+    float: none;
+    display: inline-block;
+  }
+  &-wrapper {
+    display: inline-block;
+    float: left;
+    padding: 1rem 0;
+    @media (min-width: @grid-float-breakpoint) {
+      display: block;
+      float: none;
+      text-align: center;
+    }
+  }
 }
 
 .navbar-title {
-  position: relative;
-  top: -1.5rem;
-  left: 1rem;
+  display: inline;
+  color: @brand-primary;
+  &:hover {
+    color: @brand-primary;
+  }
+  @media (min-width: @grid-float-breakpoint) {
+    position: static;
+    display: block;
+    font-size: 4rem;
+  }
 }
 
+
+.navbar-frame {
+  border-bottom: 1px solid @brand-secondary;
+  @media (min-width: @grid-float-breakpoint) {
+    border-bottom-color: transparent; // changing color only to prevent reflow
+    margin: 10rem 0;
+  }
+}
 
 // Navbar toggle
 //
