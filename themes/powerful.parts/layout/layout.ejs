@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= config.title %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <%- css('less/index') %>
+</head>
+<body>
+  <%- partial('_partial/header')  %>
+  <%- body %>
+  <%- partial('_partial/footer') %>
+  <!-- Google Analytics -->
+  <script src="//cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js"></script>
+  <%- js('js/bootstrap/collapse') %>
+</body>
+</html>
