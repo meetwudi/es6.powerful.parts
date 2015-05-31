@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ES6 Powerful Parts
+title: ES6 Powerful Parts!
 subtitle: 
 description: Mind-blowing ES6 code showcases
 author: Powerful.Parts
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: powerful.parts
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
