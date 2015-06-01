@@ -46,3 +46,7 @@ Since CodePen does not support displaying console output, we provide a script fo
 Add `http://es6.powerful.parts/js/pen.js` as an external script in your pen, then you can use `_output(message)` to print message to the page.
 
 Checkout [this example pen](http://codepen.io/tjwudi/pen/RPKqbq).
+
+##### One Click Setup
+
+Fork [this CodePen](http://codepen.io/tjwudi/pen/LVxMJG) which has all the things set up for you to create a showcase!
