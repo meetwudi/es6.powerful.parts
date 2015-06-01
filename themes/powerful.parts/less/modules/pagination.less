@@ -1,0 +1,13 @@
+.pagination {
+  text-align: center;
+  & > span, a {
+    display: inline-block;
+    padding: 1rem;
+    margin: .1rem;
+    border-bottom: 2px solid white;
+  }
+  .current, :hover {
+    border-bottom-color: @brand-primary;
+    text-decoration: none;
+  }
+}

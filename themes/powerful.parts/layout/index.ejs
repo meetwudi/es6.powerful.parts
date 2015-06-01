@@ -1,3 +1,5 @@
-<% site.posts.forEach(function(post) { %>
+<% page.posts.forEach(function(post) { %>
   <%- partial('post', {page: post})%>
 <% }); %>
+
+<%- partial('_partial/pagination') %>
