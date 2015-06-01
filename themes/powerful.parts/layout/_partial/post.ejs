@@ -9,7 +9,7 @@
     <a class="post-author-name" href="https://github.com/<%= page.author_github %>"><%= page.author %></a>
   </header>
   <div class="post-description">
-    <%- page.description %>
+    <%- markdown(page.description) %>
   </div>
   <div class="post-actions">
     <% if (index) { %>
