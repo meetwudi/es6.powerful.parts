@@ -235,7 +235,17 @@
   border-bottom: 1px solid @brand-secondary;
   @media (min-width: @grid-float-breakpoint) {
     border-bottom-color: transparent; // changing color only to prevent reflow
-    margin: 10rem 0;
+    margin: 10rem 0 2rem 0;
+  }
+}
+
+.navbar-github {
+  text-align: center;
+  display: none;
+  @media (min-width: @grid-float-breakpoint) {
+    border-bottom-color: transparent; // changing color only to prevent reflow
+    margin: 4rem 0;
+    display: block;
   }
 }
 
