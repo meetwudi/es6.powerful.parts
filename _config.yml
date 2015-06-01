@@ -5,7 +5,7 @@
 # Site
 title: ES6 Powerful Parts!
 subtitle: 
-description: Mind-blowing ES6 code showcases
+description:Mind-blowing ES6 code showcases.
 author: Powerful.Parts
 language: en-us
 timezone: 
@@ -58,7 +58,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 1
+per_page: 10
 pagination_dir: page
 
 # Extensions
