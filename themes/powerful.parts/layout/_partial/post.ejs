@@ -6,7 +6,7 @@
     <div class="avatar avatar-default pull-left">
       <img src="<%- gravatar(page.author_email, 160) %>" alt="<%= page.author %>" class="post-gravatar">
     </div>
-    <a class="post-author-name" href="https://github.com/<%= page.author_github %>"><%= page.author %></a>
+    <a class="post-author-name" target="_blank" href="https://github.com/<%= page.author_github %>"><%= page.author %></a>
   </header>
   <div class="post-description">
     <%- markdown(page.description) %>
