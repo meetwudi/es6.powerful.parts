@@ -11,4 +11,9 @@
   <div class="post-description">
     <%- page.description %>
   </div>
+  <div class="post-actions">
+    <% if (is_home()) { %>
+      <a href="<%= page.permalink %>" class="link">Know More ...</a>
+    <% } %>
+  </div>
 </article>

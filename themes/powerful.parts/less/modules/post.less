@@ -1,5 +1,8 @@
 .post {
-  margin-bottom: 10rem;
+  margin-bottom: 4rem;
+  @media (min-width: @grid-float-breakpoint) {
+    margin-bottom: 10rem;
+  }
 }
 
 .post-author {
@@ -27,6 +30,10 @@
     margin-top: 2rem;
     font-size: 2.6rem;
   }
+}
+
+.post-actions {
+  margin-top: 1rem;
 }
 
 .post-fiddle {

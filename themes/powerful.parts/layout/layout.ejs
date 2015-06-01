@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title><%= config.title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <meta name="description" content="
-    <% if (is_home()) { %> <%= config.description %> <%  } %>
-    <% if (is_post()) { %> <%= page.description %> <%  } %>
-    ">
+  <% description = "" %>
+  <% if (is_home()) { description = config.description  } %>
+  <% if (is_post()) { description = post.description    } %>
+  <title><%= config.title %></title>
+  <meta name="description" content="<%= description %>">
+  <meta property="og:title" content="<%= config.title %> | <%= description %>" /> 
+  <meta property="og:description" content="<%= description %>" />  
   <%- css('less/index') %>
 </head>
 <body>
