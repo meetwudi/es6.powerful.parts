@@ -3862,7 +3862,18 @@ input[type="button"].btn-block {
 @media (min-width: 768px) {
   .navbar-frame {
     border-bottom-color: transparent;
-    margin: 10rem 0;
+    margin: 10rem 0 2rem 0;
+  }
+}
+.navbar-github {
+  text-align: center;
+  display: none;
+}
+@media (min-width: 768px) {
+  .navbar-github {
+    border-bottom-color: transparent;
+    margin: 4rem 0;
+    display: block;
   }
 }
 .navbar-toggle {
