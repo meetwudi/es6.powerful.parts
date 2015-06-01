@@ -1,0 +1,20 @@
+.footer {
+  margin-top: 4rem;
+  padding: 6rem 0;
+  text-align: center;
+  background: fade(@brand-secondary, 15);
+  position: relative;
+
+  &:before {
+    content: " ";
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 4px;
+    position: absolute;
+    @cl1: lighten(@brand-primary, 10%);
+    @cl2: darken(@brand-secondary, 10%);
+    background: linear-gradient(90deg, @cl1, @cl1 50%, @cl2 50%, @cl2);
+    background-size: 60px 4px;
+  }
+}

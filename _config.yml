@@ -16,6 +16,7 @@ url: http://es6.powerful.parts
 root: /
 permalink: /showcases/:title/
 permalink_defaults:
+github_link: https://github.com/tjwudi/es6.powerful.parts
 
 # Directory
 source_dir: source
