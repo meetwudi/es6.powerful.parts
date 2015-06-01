@@ -1,5 +1,5 @@
 <% page.posts.forEach(function(post) { %>
-  <%- partial('post', {page: post})%>
+  <%- partial('_partial/post', {page: post, index: true})%>
 <% }); %>
 
 <%- partial('_partial/pagination') %>
