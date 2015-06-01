@@ -4709,19 +4709,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .post-disqus {
   margin-top: 4rem;
 }
-.post-fiddle {
+.post-bin {
   width: 100%;
-  height: 260px;
+  height: 300px;
   position: relative;
 }
-.post-fiddle > iframe {
+.post-bin iframe {
   display: block;
   position: absolute;
   top: 0;
   left: 0;
   width: 1px;
   min-width: 100%;
-  height: 100%;
 }
 .avatar {
   border-radius: 50% 50%;
