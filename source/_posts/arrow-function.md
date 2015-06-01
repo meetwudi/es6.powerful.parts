@@ -1,7 +1,8 @@
 author: John Wu
 author_email: webmaster@leapoahead.com
 author_github: tjwudi
-description: Arrow function is very powerful! It is not only a syntax sugar for function, but also binds current context to the function automatically.
+description: Arrow function example - the simpliest form!
 ---
 
-<iframe src="http://jsfiddle.net/04en4chm/1/embedded/js,html,css,result/presentation" frameborder="0" allowfullscreen="" scrolling="no"></iframe>
+<iframe height='300' scrolling='no' src='//codepen.io/tjwudi/embed/RPKqbq/?height=300&theme-id=0&default-tab=js' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/tjwudi/pen/RPKqbq/'>RPKqbq</a> by John Wu (<a href='http://codepen.io/tjwudi'>@tjwudi</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
