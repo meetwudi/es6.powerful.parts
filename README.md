@@ -34,3 +34,11 @@ Here is an example of CodePen embeded iframe.
 ```
 
 Keep an eye on the height of the iframe. Adjust the height of the iframe in CodePen Embed Builder to fit the content.
+
+### CodePen Helper Script
+
+Since CodePen does not support displaying console output, we provide a script for you to simulate `console.log`.
+
+Add `http://es6.powerful.parts/js/pen.js` as an external script in your pen, then you can use `_output(message)` to print message to the page.
+
+Checkout [this example pen](http://codepen.io/tjwudi/pen/RPKqbq).
