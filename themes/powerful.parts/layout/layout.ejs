@@ -6,10 +6,17 @@
   <% description = "" %>
   <% if (is_home()) { description = config.description  } %>
   <% if (is_post()) { description = page.description    } %>
+  <script type="text/javascript">
+  var addthis_share = {
+     title: "<%= config.title %><% if (description) { %> | <%=description%><% } %>" 
+  }
+  </script>
   <title><%= config.title %></title>
   <meta name="description" content="<%= description %>">
   <meta property="og:title" content="<%= config.title %> | <%= description %>" /> 
-  <meta property="og:description" content="<%= description %>" />  
+  <meta property="og:description" content="<%= description %>" /> 
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/> 
   <%- css('less/index') %>
 </head>
 <body>
