@@ -39,6 +39,8 @@ Keep an eye on the height of the iframe. Adjust the height of the iframe in Code
 
 Since ES6 implementation is still actively processing in various browsers, you may need to add shim or polyfill in your pen. [Checkout this CodePen blog](https://blog.codepen.io/documentation/editor/adding-external-resources/) for how to add external scripts.
 
+For ES6 Powerful Parts, we use [Babel.js](http://babeljs.io) for running ES6 features.
+
 ##### CodePen Helper Script
 
 Since CodePen does not support displaying console output, we provide a script for you to simulate `console.log`.
