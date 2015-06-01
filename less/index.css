@@ -4665,7 +4665,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   }
 }
 .post {
-  margin-bottom: 10rem;
+  margin-bottom: 4rem;
+}
+@media (min-width: 768px) {
+  .post {
+    margin-bottom: 10rem;
+  }
 }
 .post-author {
   margin-top: .6rem;
@@ -4698,6 +4703,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     font-size: 2.6rem;
   }
 }
+.post-actions {
+  margin-top: 1rem;
+}
+.post-disqus {
+  margin-top: 4rem;
+}
 .post-fiddle {
   width: 100%;
   height: 260px;
@@ -4725,4 +4736,39 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   height: 48px;
   width: 48px;
   border: 3px solid #c6ca00;
+}
+.pagination {
+  text-align: center;
+}
+.pagination > span,
+.pagination a {
+  display: inline-block;
+  padding: 1rem;
+  margin: .1rem;
+  border-bottom: 2px solid white;
+}
+.pagination .current,
+.pagination :hover {
+  border-bottom-color: #003459;
+  text-decoration: none;
+}
+.footer {
+  margin-top: 4rem;
+  padding: 6rem 0;
+  text-align: center;
+  background: rgba(223, 227, 0, 0.15);
+  position: relative;
+}
+.footer:before {
+  content: " ";
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 4px;
+  position: absolute;
+  background: linear-gradient(90deg, #00528c, #00528c 50%, #adb000 50%, #adb000);
+  background-size: 60px 4px;
+}
+.link {
+  font-weight: 700;
 }
