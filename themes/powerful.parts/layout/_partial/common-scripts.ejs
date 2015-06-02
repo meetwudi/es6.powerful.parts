@@ -16,6 +16,8 @@ WebFontConfig = {
   s.parentNode.insertBefore(wf, s);
 })(); </script>
 
+
+<% if (is_post()) { %>
 <!-- disqus -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
@@ -37,6 +39,7 @@ WebFontConfig = {
     }());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<% } %>
 
 <!-- Google Analytics -->
 <script>
