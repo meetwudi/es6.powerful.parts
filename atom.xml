@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://es6.powerful.parts/"/>
-  <updated>2015-06-02T16:01:33.000Z</updated>
+  <updated>2015-06-03T04:52:31.000Z</updated>
   <id>http://es6.powerful.parts/</id>
   
   <author>
@@ -16,10 +16,24 @@
   
   <entry>
     <title></title>
+    <link href="http://es6.powerful.parts/showcases/negative-index-array/"/>
+    <id>http://es6.powerful.parts/showcases/negative-index-array/</id>
+    <published>2015-06-03T04:52:31.000Z</published>
+    <updated>2015-06-03T04:52:31.000Z</updated>
+    <content type="html"><![CDATA[<iframe height="630" scrolling="no" src="//codepen.io/tjwudi/embed/JdWWrQ/?height=617&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/JdWWrQ/" target="_blank" rel="external">ES6 Powerful Parts - Negative index array using Proxy</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[Negative index array implementation using Proxy.]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="http://es6.powerful.parts/showcases/access-attr-via-proxy/"/>
     <id>http://es6.powerful.parts/showcases/access-attr-via-proxy/</id>
-    <published>2015-06-02T16:01:33.000Z</published>
-    <updated>2015-06-02T16:01:33.000Z</updated>
+    <published>2015-06-03T04:49:43.000Z</published>
+    <updated>2015-06-03T04:49:43.000Z</updated>
     <content type="html"><![CDATA[<iframe height="472" scrolling="no" src="//codepen.io/tjwudi/embed/waJGzx/?height=472&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/waJGzx/" target="_blank" rel="external">waJGzx</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
     <summary type="html">
     <![CDATA[Access attributes via proxy. Proxy brings many metaprogramming capabilities to ES6.]]>
