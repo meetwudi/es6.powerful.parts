@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[ES6 Powerful Parts!]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://es6.powerful.parts/"/>
+  <updated>2015-06-02T16:01:33.000Z</updated>
+  <id>http://es6.powerful.parts/</id>
+  
+  <author>
+    <name><![CDATA[Powerful.Parts]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://es6.powerful.parts/showcases/access-attr-via-proxy/"/>
+    <id>http://es6.powerful.parts/showcases/access-attr-via-proxy/</id>
+    <published>2015-06-02T16:01:33.000Z</published>
+    <updated>2015-06-02T16:01:33.000Z</updated>
+    <content type="html"><![CDATA[<iframe height="472" scrolling="no" src="//codepen.io/tjwudi/embed/waJGzx/?height=472&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/waJGzx/" target="_blank" rel="external">waJGzx</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[Access attributes via proxy. Proxy brings many metaprogramming capabilities to ES6.]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://es6.powerful.parts/showcases/dynamic-regexp/"/>
+    <id>http://es6.powerful.parts/showcases/dynamic-regexp/</id>
+    <published>2015-06-01T22:49:01.000Z</published>
+    <updated>2015-06-01T22:49:01.000Z</updated>
+    <content type="html"><![CDATA[<iframe height="280" scrolling="no" src="//codepen.io/tjwudi/embed/RPpbbg/?height=280&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/RPpbbg/" target="_blank" rel="external">RPpbbg</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[Dynamic regular expression with Tagged Template.]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://es6.powerful.parts/showcases/classes/"/>
+    <id>http://es6.powerful.parts/showcases/classes/</id>
+    <published>2015-06-01T22:29:39.000Z</published>
+    <updated>2015-06-01T22:29:39.000Z</updated>
+    <content type="html"><![CDATA[<iframe height="467" scrolling="no" src="//codepen.io/tjwudi/embed/NqdmaX/?height=467&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/NqdmaX/" target="_blank" rel="external">EPP.Classes</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[We programmers do two things, introducing ourselves, and coding. And now we are introducing ourselves with ES6 `class`, which supports inheritance, `super` call and more. Also, Notice the way we combine `super` call with rest arguments.]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://es6.powerful.parts/showcases/fetch-and-transform-data/"/>
+    <id>http://es6.powerful.parts/showcases/fetch-and-transform-data/</id>
+    <published>2015-06-01T12:24:34.000Z</published>
+    <updated>2015-06-01T12:24:34.000Z</updated>
+    <content type="html"><![CDATA[<iframe height="268" scrolling="no" src="//codepen.io/tjwudi/embed/yNgZQY/?height=268&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/yNgZQY/" target="_blank" rel="external">yNgZQY</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[Arrow functions combined with array comprehension makes fetching/transforming data super elegant!]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://es6.powerful.parts/showcases/generator-fibonacci/"/>
+    <id>http://es6.powerful.parts/showcases/generator-fibonacci/</id>
+    <published>2015-06-01T09:52:45.000Z</published>
+    <updated>2015-06-01T09:52:45.000Z</updated>
+    <content type="html"><![CDATA[<iframe height="415" scrolling="no" src="//codepen.io/tjwudi/embed/NqdeLM/?height=415&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/NqdeLM/" target="_blank" rel="external">ES6 Powerful Parts</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[Fibonacci generator, iterated using `for ... of`.]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://es6.powerful.parts/showcases/object-destruction/"/>
+    <id>http://es6.powerful.parts/showcases/object-destruction/</id>
+    <published>2015-06-01T07:45:51.000Z</published>
+    <updated>2015-06-01T07:45:51.000Z</updated>
+    <content type="html"><![CDATA[<p></p><p data-height="268" data-theme-id="15620" data-slug-hash="WvRLeO" data-default-tab="js" data-user="tjwudi" class="codepen">See the Pen <a href="http://codepen.io/tjwudi/pen/WvRLeO/" target="_blank" rel="external">ES6 Powerful Parts - Object destruction</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>]]></content>
+    <summary type="html">
+    <![CDATA[Extract values from object by specifing keys is possible with Object Destruction.]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://es6.powerful.parts/showcases/arrow-function-lexical-scoping/"/>
+    <id>http://es6.powerful.parts/showcases/arrow-function-lexical-scoping/</id>
+    <published>2015-06-01T07:30:13.000Z</published>
+    <updated>2015-06-01T07:30:13.000Z</updated>
+    <content type="html"><![CDATA[<iframe height="295" scrolling="no" src="//codepen.io/tjwudi/embed/WvRYKo/?height=295&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/WvRYKo/" target="_blank" rel="external">ES6 Powerful Parts - Arrow function lexical scoping</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[With arrow functions `this` is bound to the enclosing scope at creation time and cannot be changed. The `new` operator, `bind`, `call`, and `apply` have no effect on this.]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://es6.powerful.parts/showcases/arrow-function-simplest-form/"/>
+    <id>http://es6.powerful.parts/showcases/arrow-function-simplest-form/</id>
+    <published>2015-06-01T05:37:14.000Z</published>
+    <updated>2015-06-01T05:37:14.000Z</updated>
+    <content type="html"><![CDATA[<iframe height="154" scrolling="no" src="//codepen.io/tjwudi/embed/RPKqbq/?height=154&theme-id=15620&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="http://codepen.io/tjwudi/pen/RPKqbq/" target="_blank" rel="external">RPKqbq</a> by John Wu (<a href="http://codepen.io/tjwudi" target="_blank" rel="external">@tjwudi</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.<br></iframe>]]></content>
+    <summary type="html">
+    <![CDATA[Arrow function - awesome simplicity!]]>
+    
+    </summary>
+    
+  </entry>
+  
+</feed>
