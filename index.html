@@ -53,7 +53,7 @@
     <a class="post-author-name" target="_blank" href="https://github.com/tjwudi">John Wu</a>
   </header>
   <div class="post-description">
-    <p>With ES6 Proxy, elegant Active Record Query implementation will be possible. We first created a proxy for <code>Customer.prototype</code>, which is an instance of <code>ORMBase</code>. Then we can trap calls to the <code>ORMBase</code>, and return corresponding query function. In this case, we simple return a query function in <code>find</code> which is binded to a context where <code>key</code> is configured.</p>
+    <p>With ES6 Proxy, elegant Active Record Query implementation will be possible. We first created a proxy for <code>Customer.prototype</code>, which is an instance of <code>ActiveRecord</code>. Then we can trap calls to the <code>ActiveRecord</code>, and return corresponding query function. In this case, we simple return a query function in <code>find</code> which is binded to a context where <code>key</code> is configured.</p>
 
   </div>
   <div class="post-actions">
